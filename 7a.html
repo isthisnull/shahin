@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <script>
+        function greet(name){
+        if (name=== undefined){
+            false&&mamad;
+            console.log('HI there!');
+        }else {
+            let mamad=`hello ${name}`;
+            console.log(mamad);}
+    }
+    greet();
+    function convertToFahrenheit(celcius){
+        let farenfight=(celcius*9/5)+32
+        return farenfight;
+    }
+    console.log(convertToFahrenheit(25));
+    function convertToCelcius(farenfight){
+        let celcius=(farenfight-32)*5/9;
+        return celcius;
+    }
+    console.log(convertToCelcius(86));
+
+    function converTemp(degree, unit){
+        if (unit==='F'){
+            let farenfight=(degree-32)*5/9;
+        return farenfight + ' C';
+        }else {
+            let celcius=(degree*9/5)+32;
+            return celcius + ' F';
+        }
+    }
+    console.log(converTemp(86,'F'));
+    console.log(converTemp(25,'C'));
+    </script>
+    <body>
+    </body>
+</html>

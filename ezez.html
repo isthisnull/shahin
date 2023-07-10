@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <title>tamrin
+    </title>
+    <head>
+        <style>
+            .grid{
+                display: grid;
+                grid-template-columns: 50px 1fr;
+                align-items: center;
+            }
+            .avatar{
+                border-radius: 50%;
+                width: 50px;
+            }
+            .contain{
+                width: 300px;
+                border-width: 1px;
+                border-color: black;
+                border-style: solid;
+            }
+            .profile-picture{
+                max-width: 300px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="contain">
+            <div>
+                <img class="profile-picture" src="cat-pic.jpg">
+            </div>
+            <div>
+                <p class="name">Oliver</p>
+            </div>
+            <div class="grid">
+                <img class="avatar" src="cat-pic.jpg">
+                <p class="mutual">2 mutual friends</p>
+            </div>
+            <div>
+                <button>Add Friend</button>
+            </div>
+        </div>
+    </body>
+</html>
