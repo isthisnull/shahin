@@ -1,0 +1,22 @@
+.name-input {
+  font-size: 0.6rem;
+  padding: 12px 20px 12px 20px;
+  /* color: rgba(0, 0, 0, 0.2); */
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 320px;
+  height: 20px;
+}
+.des-input {
+  font-size: 0.6rem;
+  padding: 12px 220px 50px 20px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.des-input::placeholder,
+.name-input::placeholder {
+  color: rgba(0, 0, 0, 0.2);
+}
+.des-input:placeholder-shown {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
