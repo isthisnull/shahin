@@ -1,0 +1,33 @@
+body {
+  font-size: 1rem;
+  display: flex;
+}
+.remider-btn {
+  background-color: #6d2a85;
+  color: white;
+  padding: 12px 35px;
+  border-radius: 7px;
+  border: 1px solid #6d2a85;
+  margin-right: 10px;
+}
+.read-btn {
+  color: #6d2a85;
+  background-color: white;
+  padding: 12px 13px;
+  border: 1px solid #6d2a85;
+  border-radius: 7px;
+}
+.remider-btn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+.remider-btn-pic {
+  width: 14px;
+  height: 14px;
+  margin-right: 0.4rem;
+}
