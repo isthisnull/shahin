@@ -20,3 +20,18 @@
 .des-input:placeholder-shown {
   border: 1px solid rgba(0, 0, 0, 0.3);
 }
+.des-input-placeholder,
+.name-input-placeholder {
+  position: relative;
+  width: 320px;
+  height: 20px;
+}
+.des-input-placeholder-limit,
+.name-input-placeholder-limit {
+  position: absolute;
+  top: 2px;
+  right: -38px;
+}
+.name-section {
+  margin-bottom: 50px;
+}
