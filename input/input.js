@@ -1,6 +1,6 @@
 let counter = 0;
 const kirelement = document.getElementById("des-placeholder-counter");
-kirelement.addEventListener("keydown", count);
+kirelement.addEventListener("keyup", count);
 
 /* function myFunction() {
   if (event.key && event.key !== "Backspace") {
@@ -12,11 +12,11 @@ kirelement.addEventListener("keydown", count);
     console.log(counter);
   }
 } */
-
-const mamad = document.getElementById("des-placeholder-counter").value;
+const koni = document.getElementById("des-placeholder-counter");
+const mamad = koni.value;
 function count() {
-  for (i = 0; i < mamad.length; i++) {
+  console.log(document.getElementById("des-placeholder-counter").value);
+  for (i = 1; i < mamad.length; i++) {
     console.log(mamad[i]);
   }
-  console.log(mamad);
 }
