@@ -10,8 +10,14 @@
     <div class="name-section">
       <p class="name-question">What is the name?</p>
       <div class="name-input-placeholder">
-        <input type="text" placeholder="Eg. MFKs Arts" class="name-input" />
-        <div class="name-input-placeholder-limit">0/50</div>
+        <input
+          type="text"
+          maxlength="50"
+          placeholder="Eg. MFKs Arts"
+          class="name-input"
+          id="name-input-elem"
+        />
+        <div class="name-input-placeholder-limit" id="name-counter">0/50</div>
       </div>
     </div>
     <div class="descrip-section">
@@ -22,12 +28,11 @@
           placeholder="Optional"
           class="des-input"
           id="des-placeholder-counter"
+          maxlength="100"
         />
         <div class="des-input-placeholder-limit" id="demo">0/100</div>
       </div>
     </div>
-    <button class="act-but" id="kirekhar">action</button>
-    <p class="p-test" id="k-test"></p>
   </body>
   <script src="input.js"></script>
 </html>

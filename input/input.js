@@ -1,22 +1,21 @@
-let counter = 0;
-const kirelement = document.getElementById("des-placeholder-counter");
-kirelement.addEventListener("keyup", count);
+const desInputElement = document.getElementById("des-placeholder-counter");
+const nameInputElement = document.getElementById("name-input-elem");
 
-/* function myFunction() {
-  if (event.key && event.key !== "Backspace") {
-    counter++;
-    console.log(event.key);
-    console.log(counter);
-  } else if (event.key === "Backspace") {
-    counter--;
-    console.log(counter);
+const desInputStr = desInputElement.value;
+desInputElement.addEventListener("keyup", count);
+nameInputElement.addEventListener("keyup", shomaresh);
+
+function shomaresh() {
+  const nameInputStr = nameInputElement.value;
+  for (i = -1; i < nameInputStr.length; i++) {
+    document.getElementById(
+      "name-counter"
+    ).innerHTML = `${nameInputStr.length}/50`;
   }
-} */
-const koni = document.getElementById("des-placeholder-counter");
-const mamad = koni.value;
+}
 function count() {
-  console.log(document.getElementById("des-placeholder-counter").value);
-  for (i = 1; i < mamad.length; i++) {
-    console.log(mamad[i]);
+  const desInputStr = desInputElement.value;
+  for (i = -1; i < desInputStr.length; i++) {
+    document.getElementById("demo").innerHTML = `${desInputStr.length}/100`;
   }
 }
