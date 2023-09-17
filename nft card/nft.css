@@ -18,6 +18,12 @@ body {
   font-size: 1rem;
   padding: 8px 23px;
 }
+.creatorName,
+.likes span {
+  color: rgba(128, 65, 188, 0.7);
+  font-size: 1rem;
+  font-weight: bold;
+}
 .creator,
 .priceBuy {
   background-color: rgb(255, 255, 255);
@@ -25,6 +31,7 @@ body {
 }
 .creator {
   padding: 10px 10px 10px 10px;
+  color: rgba(128, 65, 188, 0.5);
 }
 .picName {
   padding: 0px 10px 0px 10px;
@@ -32,6 +39,7 @@ body {
 .priceBuy {
   border-end-end-radius: 15px;
   border-end-start-radius: 15px;
+  border-top: 1px solid rgb(244, 228, 228);
 }
 .picName,
 .creator,
@@ -45,6 +53,9 @@ body {
 }
 .priceBuy p {
   color: rgba(128, 65, 188, 0.5);
+}
+.picName p {
+  font-weight: bold;
 }
 .priceBuy span {
   font-weight: bold;
