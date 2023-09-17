@@ -5,10 +5,9 @@ body {
 .card {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 320px;
   height: 100%;
-  padding: 10px;
-  background-color: white;
+  background-color: rgb(212, 250, 255);
   border-radius: 15px;
 }
 .buy {
@@ -19,13 +18,20 @@ body {
   font-size: 1rem;
   padding: 8px 23px;
 }
-.pic,
-.picName {
-  background-color: rgb(237, 249, 252);
+.creator,
+.priceBuy {
+  background-color: rgb(255, 255, 255);
+  padding: 0px 10px 0px 10px;
+}
+.creator {
+  padding: 10px 10px 10px 10px;
 }
 .picName {
-  padding: 4px;
-  padding-right: 6px;
+  padding: 0px 10px 0px 10px;
+}
+.priceBuy {
+  border-end-end-radius: 15px;
+  border-end-start-radius: 15px;
 }
 .picName,
 .creator,
@@ -33,7 +39,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 5px;
 }
 .likeBtn {
   width: 20px;
@@ -59,5 +64,6 @@ body {
 .pic img {
   width: 300px;
   height: 300px;
-  border-radius: 15px;
+  border-radius: 20px;
+  padding: 10px;
 }
