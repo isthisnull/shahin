@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(244, 228, 228);
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 100%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 15px;
+}
+.buy {
+  background-color: rgb(128, 65, 188);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-size: 1rem;
+  padding: 8px 23px;
+}
+.pic,
+.picName {
+  background-color: rgb(237, 249, 252);
+}
+.picName,
+.creator,
+.priceBuy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
