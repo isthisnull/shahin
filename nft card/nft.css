@@ -51,7 +51,13 @@ body {
 .creatorInfo {
   display: flex;
   flex-direction: column;
+  margin-left: 6px;
 }
 .creator img {
   width: 40px;
+}
+.pic img {
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
 }
